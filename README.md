@@ -1,6 +1,6 @@
 # IDK-MRC
 
-Code and dataset for EMNLP 2022 paper titled ["IDK-MRC: Unanswerable Questions for Indonesian Machine Reading Comprehension"](https://arxiv.org/abs/2210.13778).
+Code and dataset for EMNLP 2022 paper titled ["IDK-MRC: Unanswerable Questions for Indonesian Machine Reading Comprehension"](https://aclanthology.org/2022.emnlp-main.465/).
 
 ## Dataset Description
 I(n)dontKnow-MRC (IDK-MRC) is an Indonesian Machine Reading Comprehension dataset that covers answerable and unanswerable questions. Based on the combination of the existing answerable questions in TyDiQA, the new unanswerable question in IDK-MRC is generated using a question generation model and human-written question. Each paragraph in the dataset has a set of answerable and unanswerable questions with the corresponding answer.
@@ -88,12 +88,16 @@ python run_mt5.py \
 ## Citation
 Please cite this paper if you use any code or dataset in this repository:
 ```
-@misc{putri2022idk,
-    doi = {10.48550/ARXIV.2210.13778},
-    url = {https://arxiv.org/abs/2210.13778},
-    author = {Putri, Rifki Afina and Oh, Alice},
-    title = {IDK-MRC: Unanswerable Questions for Indonesian Machine Reading Comprehension},
-    publisher = {arXiv},
-    year = {2022},
+@inproceedings{putri-oh-2022-idk,
+    title = "{IDK}-{MRC}: Unanswerable Questions for {I}ndonesian Machine Reading Comprehension",
+    author = "Putri, Rifki Afina  and
+      Oh, Alice",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.465",
+    pages = "6918--6933",
 }
 ```
